@@ -1,0 +1,23 @@
+{'"Amazing lectures"',
+'"Assignments galore"',
+'"Better Like Group Projects"',
+'"Big time extra credit"',
+'"Clear grading criteria"',
+'"Get ready to read"',
+'"Gives good feedback"',
+'"Hilarious"',
+'"Inspirational"',
+'"Lectures are long"',
+'"Papers? More like novels"',
+'"Participation matters"',
+'"Pop quiz master"',
+'"Respected by students"',
+'"Skip class? You won\'t pass."',
+'"Tests are tough"',
+'"Tests? Not many"',
+'"There for you"',
+'"Tough Grader"',
+'"Would take again"'}
+
+
+m = re.findall('\"[\w\W]+?\"',l[1])

@@ -2,7 +2,7 @@
 # @Author: Lich_Amnesia
 # @Email: alwaysxiaop@gmail.com
 # @Date:   2016-09-01 17:11:47
-# @Last Modified time: 2016-09-01 18:23:33
+# @Last Modified time: 2016-09-02 12:36:09
 # @FileName: dataclean.py
 
 import pandas as pd
@@ -32,10 +32,16 @@ def solveAttendance(data_list):
     # print res_list
     return res_list
 
+
+def solveTags(data_list):
+    
+
+
 def main():
     data = pd.read_csv("Data\\train.csv")
     attendance_list = solveAttendance(data['attendance'])
     return attendance_list
+
 
 if __name__ == '__main__':
     main()
