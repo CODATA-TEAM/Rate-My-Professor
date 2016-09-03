@@ -20,7 +20,7 @@ COde for Rate My Professor contest
 # helpfulness predict model
 | helpcount| nothelpcount| online| profgender| profhotness| tags| grade| comments| 34|
 | ------| ------ | ------ |
-| 7| 8| 10| 10| 11| 12-31| 32| None|
+| 7| 8| 9| 10| 11| 12-31| 32| None|
 
 # clarity predict model
  | forcredit | attendance | textbookuse | interest | online | profgender | profhotness | tags | grade | comments
