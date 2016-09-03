@@ -7,10 +7,18 @@ COde for Rate My Professor contest
 | ------| ------ | ------ |
 | 0| 1| 2| 3| 4| 5| 6| 7| 8|
 
+|online| profgender| profhotness| tags| grade| comments| helpfulness| clarity | quality
+| ------| ------ | ------ |
+| 9| 10| 11| 12-31| 32| 33| 34| 35 | 36
+
+# For test
+| id| tid| dept| forcredit| attendance| textbookuse| interest| helpcount| nothelpcount|
+| ------| ------ | ------ |
+| 0| 1| 2| 3| 4| 5| 6| 7| 8|
+
 |online| profgender| profhotness| tags| grade| comments| helpfulness| clarity |
 | ------| ------ | ------ |
 | 9| 10| 11| 12-31| 32| 33| 34| 35
-
 
 
 
