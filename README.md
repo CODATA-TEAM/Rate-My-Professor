@@ -14,10 +14,6 @@ COde for Rate My Professor contest
 
 
 
-
-
-暂时comment这列没有
-
 # helpfulness predict model
 | helpcount| nothelpcount| online| profgender| profhotness| tags| grade| comments| helpfulness|
 | ------| ------ | ------ |
