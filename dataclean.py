@@ -2,7 +2,7 @@
 # @Author: Lich_Amnesia
 # @Email: alwaysxiaop@gmail.com
 # @Date:   2016-09-01 17:11:47
-# @Last Modified time: 2016-09-02 12:36:09
+# @Last Modified time: 2016-09-02 22:15:16
 # @FileName: dataclean.py
 
 import pandas as pd
@@ -16,7 +16,7 @@ def calNan(data_list):
             res += 1
     return res
 
-# solve attendance column data, 
+# solve attendance column data,
 # return a list
 def solveAttendance(data_list):
     res_list = []
@@ -24,17 +24,13 @@ def solveAttendance(data_list):
         if i == i:
             if 'Not' in i:
                 res_list.append(-1)
-            else: 
+            else:
                 res_list.append(1)
         else:
             res_list.append(0)
     # print(calNan(data_list))
     # print res_list
     return res_list
-
-
-def solveTags(data_list):
-    
 
 
 def main():
