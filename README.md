@@ -7,9 +7,10 @@ COde for Rate My Professor contest
 | ------| ------ | ------ |
 | 0| 1| 2| 3| 4| 5| 6| 7| 8|
 
-|online| profgender| profhotness| tags| grade| helpfulness| clarity |
+|online| profgender| profhotness| tags| grade| comments| helpfulness| clarity |
 | ------| ------ | ------ |
-| 9| 10| 11| 12-31| 32| 33| 34|
+| 9| 10| 11| 12-31| 32| 33| 34| 35
+
 
 
 
@@ -20,14 +21,9 @@ COde for Rate My Professor contest
 # helpfulness predict model
 | helpcount| nothelpcount| online| profgender| profhotness| tags| grade| comments| helpfulness|
 | ------| ------ | ------ |
-| 7| 8| 9| 10| 11| 12-31| 32| None| 33|
+| 7| 8| 9| 10| 11| 12-31| 32| 33| 34|
 
 # clarity predict model
- | forcredit | attendance | textbookuse | interest | online | profgender | profhotness | tags | grade | comments
+ | forcredit | attendance | textbookuse | interest | online | profgender | profhotness | tags | grade | comments | clarity
 | ------| ------ | ------ |
-| 3| 4| 5| 6| 9| 10| 11| 12-31|32 |None| 34
-
-# 后面用的
-|online| profgender| profhotness| tags| grade| comments(notused)| helpfulness| clarity |
-| ------| ------ | ------ |
-| 9| 10| 11| 12-31| 32| 33| 34| 35
+| 3| 4| 5| 6| 9| 10| 11| 12-31|32 |33| 35
