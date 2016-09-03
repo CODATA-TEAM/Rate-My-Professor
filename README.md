@@ -18,14 +18,14 @@ COde for Rate My Professor contest
 暂时comment这列没有
 
 # helpfulness predict model
-| helpcount| nothelpcount| online| profgender| profhotness| tags| grade| comments| 34|
+| helpcount| nothelpcount| online| profgender| profhotness| tags| grade| comments| helpfulness|
 | ------| ------ | ------ |
-| 7| 8| 9| 10| 11| 12-31| 32| None|
+| 7| 8| 9| 10| 11| 12-31| 32| None| 33|
 
 # clarity predict model
  | forcredit | attendance | textbookuse | interest | online | profgender | profhotness | tags | grade | comments
 | ------| ------ | ------ |
-| 3| 4| 5| 6| 9| 10| 11| 12-31|32 |None|
+| 3| 4| 5| 6| 9| 10| 11| 12-31|32 |None| 34
 
 # 后面用的
 |online| profgender| profhotness| tags| grade| comments(notused)| helpfulness| clarity |
